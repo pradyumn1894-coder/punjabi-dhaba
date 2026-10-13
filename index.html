@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Punjabi Dhaba | Authentic Punjabi Food</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#fff4df;color:#29170d}
+header{background:#1b100a;color:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+.logo{font-size:23px;font-weight:bold;color:#ffc52e}
+.logo small{display:block;font-size:10px;color:white;font-weight:normal}
+nav{display:flex;gap:15px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-size:13px}
+.btn{display:inline-block;background:#ffc52e;color:#251307;padding:12px 20px;border-radius:30px;text-decoration:none;font-weight:bold}
+.hero{padding:90px 8%;min-height:430px;color:white;background:linear-gradient(90deg,#1b100aee,#1b100a55),url('https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=1500&q=80') center/cover}
+.hero h1{font-size:clamp(42px,7vw,75px);margin:15px 0}
+.hero h1 span{color:#ffc52e}
+.hero p{max-width:480px;line-height:1.8}
+section{padding:55px 7%}
+.heading{text-align:center;margin-bottom:30px}
+.heading h2{font-size:35px}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;text-align:center;background:#efdfbf;padding:25px 5%}
+.menu{background:#21140c;color:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{background:#382519;border-radius:14px;overflow:hidden;border:1px solid #65452b}
+.card img{width:100%;height:175px;object-fit:cover}
+.info{padding:16px}
+.info p{color:#e4d2bd;line-height:1.6;font-size:14px}
+.price{color:#ffc52e;font-weight:bold}
+.about{line-height:1.9}
+.gallery img{width:100%;height:200px;object-fit:cover;border-radius:12px}
+.contact{background:#284b31;color:white;text-align:center}
+.contact p{line-height:1.8}
+footer{background:#1b100a;color:white;text-align:center;padding:25px}
+@media(max-width:600px){.features{grid-template-columns:repeat(2,1fr)}header{align-items:flex-start}.hero{padding:60px 7%}section{padding:40px 6%}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">🛖 Punjabi Dhaba<small>DESI FOOD • PURE TASTE • FAMILY VIBES</small></div>
+<nav><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+<a class="btn" href="#contact">Order Now ↗</a>
+</header>
+
+<main>
+<div class="hero" id="home">
+<p style="color:#ffc52e;letter-spacing:4px">WELCOME TO</p>
+<h1>Punjabi <span>Dhaba</span></h1>
+<p>Authentic Punjabi food made with love, fresh ingredients and traditional recipes. Come hungry, leave happy!</p>
+<a class="btn" href="#menu">Explore Our Menu →</a>
+</div>
+
+<div class="features">
+<div>🍲<br><strong>Authentic Flavours</strong></div>
+<div>🌿<br><strong>Fresh Ingredients</strong></div>
+<div>👨‍👩‍👧<br><strong>Family Friendly</strong></div>
+<div>❤️<br><strong>Made With Love</strong></div>
+</div>
+
+<section class="menu" id="menu">
+<div class="heading"><h2>Our <span style="color:#ffc52e">Special Menu</span></h2><p>Big flavours and traditional Punjabi favourites.</p></div>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80" alt="Indian curry"><div class="info"><h3>Butter Chicken</h3><p>Creamy gravy with rich Indian spices.</p><div class="price">₹180*</div></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80" alt="Indian meal"><div class="info"><h3>Dal Makhani</h3><p>A comforting Punjabi classic.</p><div class="price">₹140*</div></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80" alt="Indian food"><div class="info"><h3>Shahi Paneer</h3><p>Soft paneer in a creamy gravy.</p><div class="price">₹160*</div></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80" alt="Indian dish"><div class="info"><h3>Chole Bhature</h3><p>A much-loved desi favourite.</p><div class="price">₹100*</div></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1628294895950-9805252327bc?auto=format&fit=crop&w=600&q=80" alt="Bread"><div class="info"><h3>Butter Naan</h3><p>Soft, warm bread with butter.</p><div class="price">₹35*</div></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=600&q=80" alt="Cold drink"><div class="info"><h3>Sweet Lassi</h3><p>A cool and creamy Punjabi drink.</p><div class="price">₹60*</div></div></div>
+</div>
+<p style="text-align:center;font-size:12px">*Sample prices — confirm actual prices with the restaurant.</p>
+</section>
+
+<section id="about">
+<div class="heading"><h2>A Taste of Punjab ❤️</h2></div>
+<div class="about"><p>At Punjabi Dhaba, we celebrate the warmth of Punjabi hospitality and the joy of sharing a hearty meal. Our menu is inspired by traditional desi favourites and comforting flavours.</p><p>Bring your family, meet your friends and enjoy the welcoming dhaba experience!</p></div>
+</section>
+
+<section class="gallery" id="gallery">
+<div class="heading"><h2>Our Food Gallery</h2><p>A little glimpse of delicious food and good vibes.</p></div>
+<div class="grid">
+<img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80" alt="Indian food">
+<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Restaurant interior">
+<img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=600&q=80" alt="Indian curry">
+</div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Craving Something Desi?</h2>
+<p>Visit us for a hearty meal or contact us to ask about ordering.</p>
+<p>📍 Address: Add the real restaurant address<br>🕒 Opening hours: Add actual timings<br>📞 Phone: Add the restaurant number</p>
+<a class="btn" href="https://wa.me/" target="_blank" rel="noopener">Order on WhatsApp ↗</a>
+<p style="font-size:12px">Update the address, timings, phone number and WhatsApp link before publishing.</p>
+</section>
+</main>
+<footer>🛖 Punjabi Dhaba<br><br>Desi Food • Pure Taste • Family Vibes<br><br>© 2026 Punjabi Dhaba</footer>
+</body>
+</html>
